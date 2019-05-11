@@ -22,3 +22,6 @@
 # Logs
 npm-debug.log*
 *.log
+
+# Jetbrains IDE files
+/.idea
