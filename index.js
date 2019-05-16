@@ -67,7 +67,7 @@ function writeFile(fileName, data) {
 }
 
 function arrayToCSV (arrayName) {
-	return arrayName.map((prop) => `${prop},`).join('\n');
+	return arrayName.join(',\n');
 }
 
 linkBuyerToFacility();
